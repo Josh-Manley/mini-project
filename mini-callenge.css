@@ -1,0 +1,104 @@
+* {
+font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  }
+  
+  a:visited{
+  text-decoration: none;
+  color: white;
+  }
+
+header {
+  display: inline-block;
+  position: fixed;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px
+}
+
+header nav ul {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 20px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#h1-header {
+  font-size: 40px;
+  margin-bottom: 16px;
+  margin-top: 100px;
+}
+
+#image {
+  width: 300px;
+  height: 300px;
+}
+
+.content {
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  background-color: lightgreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#contact-me {
+  margin: 0px;
+}
+
+.input {
+  width: 350px;
+}
+
+.inputs {
+  display: inline-block;
+  text-align: right;
+}
+
+.send-button {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.send-button:hover {
+  cursor: pointer;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.contact-form-2 {
+  display: inline-block;
+  border: solid gray 2px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
